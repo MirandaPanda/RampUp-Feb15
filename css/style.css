@@ -1,65 +1,161 @@
+header, section, footer, aside, nav, article {
+	display: block;
+}
+
 body {
+	color: green;
+	background-image: url("../images/bark.jpg");
+	background-repeat: repeat;
+	background-position: center;
 	font-family: sans-serif;
-	background-color: black;
-	color: #9FCE9F;
-	padding: 25px;
+	line-height: 1.4em;
+	margin: 0px;
+}
+
+.wrapper {
+	width: 970px;
+	margin: 20px auto 20px auto;
+	border: 2px solid #000000;
+	background-color: #D0F2D0;	
+}
+
+
+#header {
+	background-image: url("../images/leaves.jpg");
+	background-repeat: repeat;
+	height: 160px;
+	width: 100%;
+	background-color: green;
+	margin: 5px;
+	padding: 15px;
+}
+
+img.panda {
+	height: 150px;
+	width: 140px;
+	padding: 20px
+	}
+#headformat {
+	font-weight: bolder;
+	font-size: 30px;
+	margin-top: -5px;
+	color: #D0F2D0;
 }
 
 h1 {
-	color: purple;
+	text-indent: -9999px;
+	width: 970px;
+	height: 130px;
+	margin: 0px;
+	padding: 5px;
 	text-transform: capitalize;
-	font-style: sans-serif;
 	text-align: center;
-	padding: 30px;
-	margin: 50px;
 
 }
 
-h2 {
-	color: green;
-	font-family: sans-serif;
-	font-size: bold;
-	text-align: center;
-	padding: 20px;
+nav, footer {
+	clear: both;
+	color: #D0F2D0;
+	background-color: black;
+	height: 30px;
 }
 
-img.align-center {
+nav {
+	padding-top: 0px;
+
+}
+
+nav ul {
+	margin: 0px;
+	padding: 10px 0px 5px 30px;
+}
+
+nav li {
 	display: inline;
-	margin: 0px auto;
-
-}
-
-#navbar ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-
-#navbar li {
-	float: left;
-}
-
-#navbar a {
-	display: block;
-	width: 1375px;
+	margin-right: 40px;
+	margin-left: 100px;
+	padding: 60px;
 	font-weight: bold;
-	color: #9FCE9F;
 	font-size: 20px;
-	padding: 4px 10px;
+
+}
+
+nav li a {
+	color: #D0F2D0;
 	text-decoration: none;
-	background-color: #737673;
+	margin-bottom: 5px;
+}
+
+section.homepageinfo {
+	float: left;
+	width: 700px;
+	border-right: 1px solid green;
+	text-decoration: none;
+}
+
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;
+}
+
+section.zoolist {
+	width: 230px;
+	float: left;
+	text-decoration: none;
+	margin-top: 20px;
+	line-height: 30px;
 
 }
 
 p {
-	font-style: bold;
-	font-size: 18px;
-	padding: 12px;
-	margin: 20px;
-	border-spacing: 10px;
+	padding: 10px;
+}
+
+img.intext {
+	padding: 5px;
+}
+h2 {
+	color: black;
+	text-align: center;
+	margin: 10px 0px 5px 0px;
+	padding: 5px;
+}
+figure {
+	padding: 5px;
+	margin: 5px;
+}
+
+img.zoopics {
+	height: 200px;
+	width: 190px;
+	padding: 0px;
+	margin-left: 40px;
+}
+
+section.blog {
+	border: green 2px;
+	padding:30px;
+}
+
+form {
+	background-color: #D0F2D0;
+	color: black;
+	padding: 5px;
+	margin: 10px;
+}
+
+figcaption {
+	color: green;
+	font-weight: lighter;
+	font-size: 15px;
+	margin: 0px;
+	text-align: center;
 }
 
 footer {
-	width: 1375px;
+	padding: 10px;
+	text-align: center;
 }
+
+
